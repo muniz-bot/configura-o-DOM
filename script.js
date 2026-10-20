@@ -87,7 +87,7 @@ function atualizarContador() {
 
     function aplicarTema(tema) {
         raiz.setAttribute("data-tema, tema");
-        botaotema.textContent = tema === "escuro" ? : "tema claro" : "tema escuro";
+        botaotema.textContent = tema === "escuro" ?  "tema claro" : "tema escuro";
     }
 
     // Ao abrir a página: usa o tema salvo ou, se não houver, o do sistema 
